@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 function App() {
 
-  const [data,setData] = useState();
+  const [data,setData] = useState([]);
   // const newData = [
   //   {
   //     brandName: 'Adidas',
